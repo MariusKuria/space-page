@@ -1,0 +1,14 @@
+.up-container {
+   padding-top: 70px;
+   padding-bottom: 70px;
+}
+
+.long-row {
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+}
+
+.short-block {
+    width: 600px;
+    margin-left: calc(50% - 300px);
+}

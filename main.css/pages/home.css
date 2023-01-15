@@ -1,0 +1,83 @@
+/* Base */
+@import '../base/base.css';
+@import '../base/layout.css';
+/* 3rd-party */
+/* Components */
+/* clock */
+@import '../components/clock.css';
+/* form */
+@import '../components/form.css';
+/* button */
+@import '../components/button.css';
+/* light */
+@import '../components/mouse.css';
+
+
+/* CUSTOM STYLE BELOW THIS LINE (FILES WHICH ARE NOT PLACED ON OTHER PRESENT CSS FILES IN THIS PROJECT) */
+
+/* container-up */
+
+.up-container {
+    min-height: 60vh;
+    padding-bottom: 40px;
+    background-image: url(../../images/space.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.up-container > .short-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+ 
+}
+
+.logo {
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 50%;
+    box-shadow: -3px 40px 10px 1px rgba(46, 22, 22, 0.667);
+}
+
+.main-title {
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+    margin-top: 40px;
+    word-spacing: 5px;
+}
+
+.main-description {
+    color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+    position: relative;
+    
+}
+
+@media (max-width: 650px) {
+    .short-block {
+        width: 100%;
+        margin: 0;
+        padding: 8px;
+    }
+    .main-title, .main-description {
+        text-align: center;
+    }
+   
+}
