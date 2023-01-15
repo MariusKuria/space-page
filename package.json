@@ -1,0 +1,16 @@
+{
+  "name": "space-page",
+  "version": "1.0.0",
+  "description": "Space Webpage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=3025",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mario",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
