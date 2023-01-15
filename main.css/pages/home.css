@@ -59,13 +59,14 @@
     letter-spacing: -3px;
     color: rgba(255, 255, 255, 0.637);
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
     word-spacing: 5px;
 }
 
 .main-description {
-    color: rgba(255, 255, 255, 0.637);
+    color: rgba(255, 255, 255, 0.823);
     text-align: center;
+    word-spacing: 2px;
 
 }
 
