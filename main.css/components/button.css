@@ -1,0 +1,42 @@
+form > .btn {
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 20px;
+    line-height: 1em;
+    background-color: #923d1b80;
+    border: none;
+    border-radius: 0.2em;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+}
+.btn:hover {
+    box-shadow: 0 4px 8px #0002;
+}
+/* .btn.btn-green {
+    background-color: green;
+}
+.btn.btn-green:hover {
+    box-shadow: 0 4px 6px #0002;
+}
+.btn.btn-small {
+    font-size: 8px; */
+    /*cia priklausomai ko reikia gali susikurti*/
+/* }
+.btn.btn-sircle {
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    line-height: 2em;
+    border-radius: 50%;
+} */
+
+    /* MYGTUKU PAVYZDZIAI
+    <div class="btn">Click me</div>
+    <a href="#" class="btn btn-green">Click me</a>
+    <button class="btn">Click me</button>
+    <input class="btn" type="button" value="Click me" /> */
+
+     
