@@ -10,7 +10,7 @@
     position: relative;
 }
 .clock > .time {
-    width: 25%;
+    width: 50%;
 }
 
 .clock > .time > .value {
@@ -21,6 +21,7 @@
 .clock > .time > .label {
     font-size: 14px;
     text-transform: uppercase;
+    word-spacing: 5px;
 }
 
 @media (max-width: 650px) {

@@ -10,14 +10,14 @@
 /* button */
 @import '../components/button.css';
 /* light */
-@import '../components/mouse.css';
+@import '../components/rocket-light.css';
 
 
 /* CUSTOM STYLE BELOW THIS LINE (FILES WHICH ARE NOT PLACED ON OTHER PRESENT CSS FILES IN THIS PROJECT) */
 
 /* container-up */
 
-.up-container {
+.up-container, .m-container, .d-container {
     min-height: 60vh;
     padding-bottom: 40px;
     background-image: url(../../images/space.png);
@@ -25,6 +25,14 @@
     background-position: center;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
+}
+.m-container {
+    min-height: 40vh;
+    background-image: none;
+    background-color: #201a23;
+}
+.d-container {
+    background-image: url(../../images/space-no-planet.png);
 }
 
 .up-container > .short-block {
@@ -42,7 +50,7 @@
     object-fit: contain;
     object-position: center;
     border-radius: 50%;
-    box-shadow: -3px 40px 10px 1px rgba(46, 22, 22, 0.667);
+    box-shadow: 0px 20px 10px 1px rgba(46, 22, 22, 0.667);
 }
 
 .main-title {
@@ -51,13 +59,14 @@
     letter-spacing: -3px;
     color: rgba(255, 255, 255, 0.637);
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
     word-spacing: 5px;
 }
 
 .main-description {
-    color: rgba(255, 255, 255, 0.637);
+    color: rgba(255, 255, 255, 0.823);
     text-align: center;
+    word-spacing: 2px;
 
 }
 
@@ -68,6 +77,10 @@ form {
     margin-top: 30px;
     position: relative;
     
+}
+
+.rocket {
+    height: 80px;
 }
 
 @media (max-width: 650px) {
