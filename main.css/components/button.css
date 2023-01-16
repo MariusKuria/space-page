@@ -1,3 +1,4 @@
+
 form > .btn {
     padding: 0.5em 0.8em;
     text-decoration: none;
@@ -10,11 +11,14 @@ form > .btn {
     border-radius: 0.2em;
     cursor: pointer;
     user-select: none;
-    align-items: center;
+    
+    
+  
 }
 .btn:hover {
     box-shadow: 0 4px 8px #0002;
 }
+
 /* .btn.btn-green {
     background-color: green;
 }
