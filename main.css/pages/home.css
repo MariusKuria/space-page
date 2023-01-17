@@ -11,6 +11,8 @@
 @import '../components/button.css';
 /* light */
 @import '../components/rocket-light.css';
+/* progress-bar */
+@import'../components/progress-bar.css';
 
 
 /* CUSTOM STYLE BELOW THIS LINE (FILES WHICH ARE NOT PLACED ON OTHER PRESENT CSS FILES IN THIS PROJECT) */
@@ -18,21 +20,13 @@
 /* container-up */
 
 .up-container, .m-container, .d-container {
-    min-height: 60vh;
-    padding-bottom: 40px;
+    /* min-height: 60vh; */
+    padding-bottom: 30px;
     background-image: url(../../images/space.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-}
-.m-container {
-    min-height: 40vh;
-    background-image: none;
-    background-color: #201a23;
-}
-.d-container {
-    background-image: url(../../images/space-no-planet.png);
 }
 
 .up-container > .short-block {
@@ -82,6 +76,66 @@ form {
 .rocket {
     height: 80px;
 }
+main {
+    
+    min-height: 60vh;
+    background-image: none;
+    background-color: #201a23;
+    box-shadow: 100px 1px 100px 100px;
+    
+}
+
+.m-container {
+    color:  rgba(255, 255, 255, 0.823);
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    /* min-height: 60vh; */
+    background-image: none;
+    background-color: #201a23;
+   
+}
+
+.m-container > .left-part, .right-part {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.form {
+    
+    color:  rgba(255, 255, 255, 0.823);
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 600px;
+    margin-left: calc(50% - 300px);
+    margin-top: 40px;
+    
+}
+.forms-container {
+    height: 40vh;
+}
+
+
+.d-container {
+    background-image: url(../../images/space-no-planet.png);
+}
+
+.distance-to-sun {
+    display: flex;
+    gap: 50px;
+}
 
 @media (max-width: 650px) {
     .short-block {
@@ -92,4 +146,26 @@ form {
     .main-title, .main-description {
         text-align: center;
     } 
+    
+}
+
+@media (max-width: 650px) {
+    .m-container, .distance-to-sun {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .btn {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        left-margin:
+    }
+   
+    
 }

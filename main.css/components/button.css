@@ -1,5 +1,5 @@
 
-form > .btn {
+.btn, .btn-mdl {
     padding: 0.5em 0.8em;
     text-decoration: none;
     text-align: center;
@@ -10,11 +10,19 @@ form > .btn {
     border: none;
     border-radius: 0.2em;
     cursor: pointer;
-    user-select: none;
-    
-    
-  
+    user-select: none; 
 }
+
+.btn-mdl {
+    width: 45%;
+    display: inline;
+    position: relative;
+   margin-left: 150px;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+
 .btn:hover {
     box-shadow: 0 4px 8px #0002;
 }
