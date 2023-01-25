@@ -11,6 +11,7 @@
 .short-block {
     width: 600px;
     margin-left: calc(50% - 300px);
+    
 }
 
 /* .m-container {
@@ -21,3 +22,17 @@
     background-repeat: no-repeat;
     
 } */
+
+.d-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: rgba(255, 255, 255, 0.823);
+}
+
+.btn-btm {
+    width: 45%;
+    text-align: center;
+    margin-top: 5px;
+}
